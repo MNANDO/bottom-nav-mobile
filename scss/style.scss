@@ -1,0 +1,10 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Custom CSS
+@include media-breakpoint-up(sm) {
+    .navbar {
+        position: absolute;
+        bottom: auto;
+        top: 0;
+    }
+  }
